@@ -37,12 +37,18 @@ In the VIZIONS, the enteric disease study took place in several hospitals (Table
 For each individual, we have information from hospital records and questionnaire, including demography, symptom, hospital data, laboratory test and behaviour, having 88 features (in Figure1).
 
 <img src="/image/covariate.JPG" width="600"/> 
+
 <em>Figure 1: The covariate for the dataset.</em>
 
 In this project, subjects were divided into three categories based on the numbered of infected virus, having no viruses (38%), single virus (35%) and coinfections which means multiple viruses (27%) (in Figure 2). The majority of patients’ age are under 5 years old and the population of gender in each age group are quite similar (in Figure 3).
 
-![](/image/infection_situation.jpeg "The distribution of virus infection")*Figure 2: The distribution infected patients*
-![](/image/age_by_gender.jpeg "Age and gender distribution")*Figure 3: Age and gender distribution*
+<img src="/image/infection_situation.jpeg" width="500"/> 
+
+<em>Figure 2: The distribution infected patients.</em>
+
+<img src="/image/age_by_gender.jpeg" width="820"/> 
+
+<em>Figure 3: Age and gender distribution.</em>
 
 In this dataset, it is unequal weighting for each site. Most patients who reach the inclusion criteria live in site 4.
 
