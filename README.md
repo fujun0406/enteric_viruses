@@ -1,6 +1,7 @@
 # Project - Enteric Viruses in Vietnam
 ## Content
 * [Overview](#overview)
+* [Background](#background)
 * [Exploratory Data Analysis](#exploratory-data-analysis)
 * [Building Model](#building-model)
   * [Bayesian Mixed Effects Logistic Regression](#bayesian-mixed-effects-logistic-regression)
@@ -13,6 +14,10 @@ Emerging infectious diseases (EIDs) have a significant influence on public healt
 * Using Bayesian mixed effects logistic regression model to investigate the risk factors for infection group.
 * Using logistic regression to detect the impact between single virus infection and multiple viruses infection.
 
+## Background
+EIDs are those diseases whose have appeared in population for the first time, or have existed but rapidly increasing in incidence or geographic range [Morse & Schluederberg 1990](https://academic.oup.com/jid/article-abstract/162/1/1/923706?redirectedFrom=fulltext). These diseases have a significant impact on public health and economy. Vietnam is recognized as a country where it has been an epicenter of disease emergence. To tackle the scientific issues, the Vietnam Initiative on Zoonotic Infections (VIZIONs) project ran between 2011 and 2016 aiming to gather data and improve the aetiological and epidemiological of approaches for pathogen detection and discovery. 
+
+Some reports have suggested that disease severity is related to the number of viruses. In this project, we aim to examine the risk factors associated with viral acute enteric infections (AEIs) by the number of viruses and whether infection with multiple viruses results in increased disease severity. 
 ## Exploratory Data Analysis
 In the VIZIONS, the enteric disease study took place in several hospitals between 2012 and 2015 in Vietnam ([Rabaa et al. 2015](https://pubmed.ncbi.nlm.nih.gov/26403795/)). There are 707 patients with symptoms of enteric disease admitted to hospital and 440 samples were tested to carry virus. The majority of subjects (95%) from Dong Thap General Hospital.
 | Site | Hospitals |
@@ -39,7 +44,7 @@ In this dataset, it is unequal weighting for each site. Most patients who reach 
 <img src="/image/site2.png" width="410"/> <img src="/image/site4.png" width="410"/> 
 <img src="/image/site5.png" width="410"/> <img src="/image/site6.png" width="410"/>
 
-<em>Figure 4: The distribution of virus infection for hospital sites. (top left is Site 2, top right is site 4, bottom left is site 5 and bottom right is site 6)</em>
+<em>Figure 4: The distribution of virus infection for hospital sites. (top left is site 2, top right is site 4, bottom left is site 5 and bottom right is site 6)</em>
 
 ## Building Model
 ### Bayesian Mixed Effects Logistic Regression
