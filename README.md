@@ -10,7 +10,7 @@ Emerging infectious diseases (EIDs) have a significant influence on public healt
 * Using logistic regression to detect the impact between single virus infection and multiple viruses infection.
 
 ## Exploratory Data Analysis
-In the VIZIONS, the enteric disease study took place in several hospitals between 2012 and 2015 in Vietnam ([Rabaa et al. 2015](https://pubmed.ncbi.nlm.nih.gov/26403795/)).
+In the VIZIONS, the enteric disease study took place in several hospitals between 2012 and 2015 in Vietnam ([Rabaa et al. 2015](https://pubmed.ncbi.nlm.nih.gov/26403795/)). There are 707 patients with symptoms of enteric disease admitted to hospital and 440 samples were tested to carry virus. The majority of subjects (95%) from Dong Thap General Hospital.
 | Site | Hospitals |
 | ----------- | ----------- |
 | 1 | Ba Vi District Hospital, Ha Noi |
@@ -20,3 +20,10 @@ In the VIZIONS, the enteric disease study took place in several hospitals betwee
 | 6 | Khanh Hoa General Hospital, Nha Trang City, Khanh Hoa Province |
 | 7 | The Hospital for Tropical Diseases (HTD), Ho Chi Minh City |
 | 8 | National Hospital for Tropical Diseases (NHTD), Ha Noi |
+
+For each individual, we have information from hospital records and questionnaire, including demography, symptom, hospital data, laboratory test and behaviour, having 88 features. 
+![covariate](https://github.com/fujun0406/enteric_viruses/blob/master/image/covariate.JPG) 
+
+In this project, subjects were divided into three categories based on the numbered of infected virus, having no viruses (38%), single virus (35%) and coinfections which means multiple viruses (27%). 
+![virus infection for patients](https://github.com/fujun0406/enteric_viruses/blob/master/image/infection_situation.jpeg)
+
