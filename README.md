@@ -90,7 +90,9 @@ Diagnostic tests for Bayesian mixed effects logistic regression model include tr
 
 <em>Figure 5: Trace plot for multiple viruses group.</em>
 
-![](/image/gelman_plot_coinf_with_site.jpeg)*Figure 6: BGR plot for multiple viruses group.*
+<img src="/image/gelman_plot_coinf_with_site.jpeg" width="500"/>
+
+<em>Figure 6: BGR plot for multiple viruses group.</em>
 
 ### Logistic Regression
 The features three days fever, blood in stool, mucoid in stool, abdominal pain, acute diarrhoea and extended stay are used to measure disease severity and use those features as dependent variables.  Patients with multiple virus illnesses had higher rates of severe clinical disease compared with children with single virus infections. Patients with single virus detections were less frequently admitted to have mucoid in stool (OR = 1.82, p value = 0.032) or three days fever (OR = 1.42, p value = 0.078) compared with the group of patients with multiple viruses (Table 3). No differences are observed when comparing rates of blood in stool, abdominal pain, acute diarrhoea or extended stay. 
