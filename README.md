@@ -2,6 +2,10 @@
 ## Content
 * [Overview](#overview)
 * [Exploratory Data Analysis](#exploratory-data-analysis)
+* [Building Model](#building-model)
+  * [Bayesian Mixed Effects Logistic Regression](#bayesian-mixed-effects-logistic-regression)
+  * [Logistic Regression](#logistic-regression)
+* [Conclusion](#conclusion)
 
 ## Overview
 Emerging infectious diseases (EIDs) have a significant influence on public health and economy [Jones et al. 2008](https://www.nature.com/articles/nature06536). Vietnam has experienced a number of emerging diseases outbreaks which cause by zoonotic pathogens. The Vietnam Initiative on Zoonotic Infections (VIZIONs) project aim to understand the nature, public health and the origins of infectious disease cases. The enteric viruses study is part of components. In this project, 
@@ -30,4 +34,16 @@ In this project, subjects were divided into three categories based on the number
 ![](/image/infection_situation.jpeg "The distribution of virus infection")*Figure 2: The distribution infected patients*
 ![](/image/age_by_gender.jpeg "Age and gender distribution")*Figure 3: Age and gender distribution*
 
+In this dataset, it is unequal weighting for each site. Most patients who reach the inclusion criteria live in site 4.
 
+<img src="/image/site2.png" width="425"/> <img src="/image/site4.png" width="425"/> 
+<img src="/image/site5.png" width="425"/> <img src="/image/site6.png" width="425"/>
+
+<em>Figure 4: The distribution of virus infection for hospital sites. (top left is Site 2, top right is site 4, bottom left is site 5 and bottom right is site 6)</em>
+
+## Building Model
+### Bayesian Mixed Effects Logistic Regression
+
+### Logistic Regression
+
+## Conclusion
