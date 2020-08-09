@@ -36,8 +36,8 @@ In this project, subjects were divided into three categories based on the number
 
 In this dataset, it is unequal weighting for each site. Most patients who reach the inclusion criteria live in site 4.
 
-<img src="/image/site2.png" width="425"/> <img src="/image/site4.png" width="425"/> 
-<img src="/image/site5.png" width="425"/> <img src="/image/site6.png" width="425"/>
+<img src="/image/site2.png" width="410"/> <img src="/image/site4.png" width="410"/> 
+<img src="/image/site5.png" width="410"/> <img src="/image/site6.png" width="410"/>
 
 <em>Figure 4: The distribution of virus infection for hospital sites. (top left is Site 2, top right is site 4, bottom left is site 5 and bottom right is site 6)</em>
 
