@@ -64,7 +64,7 @@ The purposes of the project are the risk factors which associated with infection
 The potential risk factors include water sources, keep animal, killing animal, eat cook raw mwat, age, gender etc, that having 14 features. We use Fisher test to assess the association and it shows that the variables of gender, well, age and distance are related to infection situation.
 
 ### Bayesian Mixed Effects Logistic Regression
-We ran three different Markov chains. A burn-in of 8000 Markov chain Monte Carlo iterations is used, followed by 15000 iterations during which values for the coefficients were stored.
+In this project, we have no prior knowledge for the parameters. As a result, the choice of the prior distribution will be a challenge. In order to prevent this issue and provide an objective inference, we try to choose N(0, 100) which is a weakly informative distribution that means it will not contribute strongly to the posterior distribution. We ran three different Markov chains. A burn-in of 8000 Markov chain Monte Carlo iterations is used, followed by 15000 iterations during which values for the coefficients were stored.
 
 #### Estimation
 The Bayesian mixed effects logistic regression model for each group is presented in Table 2. It can be seen from the 95% CrI of well is not a significant risk factor for no virus infection and there is no significant difference between each hospital site. For single virus, the 95% CrI of distance is not a significant risk factor and there is no significant difference between each hospital site. The 95% CrI shows age and distance have significant association with people who infected multiple viruses and hospital site 4 is significantly different from others that shows that multiple viruses prevalence is higher for people who lived nearby hospital site 4 than other areas.
@@ -109,6 +109,10 @@ The features three days fever, blood in stool, mucoid in stool, abdominal pain, 
 <em>Table 3: Correlation of severe disease, by single or multiple virus illnesses. (CI: confidence interval and OR: Odds ratio for multiple virus illnesses compared with single virus illnesses)</em>
 
 ## Conclusion
+To conclude despite the fact that no prior knowledge about the distribution, the Bayesian mixed effects model still provide many information about the significance and important risk factors for each infection groups. But we cannot test the accuracy about this statistical model because it might difficult to give an interpretation by the clinical doctor. For the disease severity, the logistic regression models give many clues about the impact of clinical diseases toward infected single virus and multiple viruses.
+
+As far as for future research, when we include more patients and their information into dataset, an interesting prospect will be check the accuracy or building a spatial model. Finally, it would also be important to check if AEIs is influenced by regional parameters or socio environmental factors.
+
 
 
 
