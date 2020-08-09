@@ -21,11 +21,13 @@ In the VIZIONS, the enteric disease study took place in several hospitals betwee
 | 7 | The Hospital for Tropical Diseases (HTD), Ho Chi Minh City |
 | 8 | National Hospital for Tropical Diseases (NHTD), Ha Noi |
 
-For each individual, we have information from hospital records and questionnaire, including demography, symptom, hospital data, laboratory test and behaviour, having 88 features.
+For each individual, we have information from hospital records and questionnaire, including demography, symptom, hospital data, laboratory test and behaviour, having 88 features (in Figure1).
 
-![covariate](https://github.com/fujun0406/enteric_viruses/blob/master/image/covariate.JPG) 
+![](/image/covariate.JPG "The features of dataset")*Figure 1: The covariate for the dataset.*
 
-In this project, subjects were divided into three categories based on the numbered of infected virus, having no viruses (38%), single virus (35%) and coinfections which means multiple viruses (27%). 
+In this project, subjects were divided into three categories based on the numbered of infected virus, having no viruses (38%), single virus (35%) and coinfections which means multiple viruses (27%) (in Figure 2). The majority of patients’ age are under 5 years old and the population of gender in each age group are quite similar (in Figure 3).
 
-![virus infection for patients](https://github.com/fujun0406/enteric_viruses/blob/master/image/infection_situation.jpeg)
+![](/image/infection_situation.jpeg "The distribution of virus infection")*Figure 2: The distribution infected patients*
+![](/image/age_by_gender.jpeg "Age and gender distribution")*Figure 3: Age and gender distribution*
+
 
